@@ -23,9 +23,12 @@ export default function Hero() {
               >
                 Start Free Trial <ArrowRight className="w-5 h-5" />
               </a>
-              <button className="bg-white/10 hover:bg-white/20 backdrop-blur-sm px-8 py-3 rounded-lg font-semibold transition-all">
-                Watch Demo
-              </button>
+              <a 
+                href="#showcase"
+                className="bg-white/10 hover:bg-white/20 backdrop-blur-sm px-8 py-3 rounded-lg font-semibold transition-all"
+              >
+                See in Action
+              </a>
             </div>
           </div>
           

@@ -7,19 +7,19 @@ import 'swiper/css/pagination';
 
 const screenshots = [
   {
-    url: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80',
-    title: 'Dashboard Analytics'
+    url: '/dashboard.png',
+    title: 'Main Dashboard'
   },
   {
-    url: 'https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&q=80',
-    title: 'Project Management'
+    url: '/employees.png',
+    title: 'Employee Management'
   },
   {
     url: 'https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&q=80',
     title: 'Team Collaboration'
   },
   {
-    url: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80',
+    url: '/mockup.png',
     title: 'Resource Planning'
   },
   {

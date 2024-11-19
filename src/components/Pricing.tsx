@@ -5,30 +5,31 @@ const plans = [
   {
     name: 'Starter',
     price: 9,
+    userTier: '1-10 users',
     features: [
       'All core features',
       'Basic analytics',
       '5GB storage per user',
-      'Email support',
-      'Mobile app access'
+      'Email support'
     ],
     popular: false
   },
   {
     name: 'Professional',
     price: 29,
+    userTier: '11-50 users',
     features: [
       'All Starter features',
       'Advanced analytics',
       '50GB storage per user',
-      'Priority support',
-      'API access'
+      'Priority support'
     ],
     popular: true
   },
   {
     name: 'Enterprise',
     price: 49,
+    userTier: 'Unlimited users',
     features: [
       'All Professional features',
       'Custom analytics',
@@ -71,6 +72,7 @@ export default function Pricing() {
               <div className="mt-4 mb-8">
                 <span className="text-4xl font-bold">${plan.price}</span>
                 <span className="text-gray-400">/user/month</span>
+                <div className="mt-1 text-sm text-gray-400">{plan.userTier}</div>
               </div>
               <ul className="space-y-4 mb-8">
                 {plan.features.map((feature, idx) => (
@@ -88,7 +90,9 @@ export default function Pricing() {
                     : 'bg-blue-600 hover:bg-blue-700'
                 }`}
               >
-                Get Started
+                {plan.name === 'Enterprise' 
+                  ? 'Contact Sales'
+                  : 'Try Free for 14 Days'}
               </a>
             </div>
           ))}
