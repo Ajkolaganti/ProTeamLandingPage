@@ -18,7 +18,7 @@ export default function Hero() {
             </p>
             <div className="flex flex-wrap gap-4">
               <a 
-                href="https://maia-beige.vercel.app/register"
+                href="https://pro-team-beige.vercel.app/register"
                 className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold flex items-center gap-2 transition-all"
               >
                 Start Free Trial <ArrowRight className="w-5 h-5" />
