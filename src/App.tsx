@@ -22,7 +22,7 @@ function App() {
               Testimonials
             </a>
             <a 
-              href="https://maia-beige.vercel.app/register" 
+              href="https://pro-team-beige.vercel.app/register" 
               className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors"
             >
               Get Started
